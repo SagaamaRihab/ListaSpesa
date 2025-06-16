@@ -1,0 +1,11 @@
+# ninja log v6
+9	500	7718201610861310	build.ninja	2c593f86b8e85c16
+66	875	7718103316005441	CMakeFiles/ListaSpesa.dir/src/ListaObserver.cpp.obj	242adf04a001d3c5
+39	921	7718103315743905	CMakeFiles/ListaSpesa.dir/src/Utente.cpp.obj	79396c2156c0983b
+1	653	7718103315364485	CMakeFiles/ListaSpesa.dir/src/Oggetto.cpp.obj	52a88537a8cb718c
+9	660	7718198910151429	CMakeFiles/ListaSpesa.dir/main.cpp.obj	bff4205154fdf701
+660	1103	7718198916660631	ListaSpesa.exe	d9d42b09365f2c89
+5	610	7718103876724860	CMakeFiles/ListaSpesa.dir/src/ListaDellaSpesa.cpp.obj	adef6dc0571afd04
+24	486	7718198223122846	CMakeFiles/ListaSpesa.dir/src/item.cpp.obj	a093514b9d0072f8
+8	441	7718201610861310	build.ninja	2c593f86b8e85c16
+22	700	7718201611531459	CMakeFiles/ListaSpesa.dir/src/item.cpp.obj	436adc219437a539
