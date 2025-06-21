@@ -1,43 +1,58 @@
-# 🛒 Lista della Spesa - Progetto C++ (Esame Universitario)
+# 🛒 Lista della Spesa - Progetto C++ 
 
-Questo progetto è una simulazione di un'applicazione in C++ per la gestione di liste della spesa, simile a Listonic.
+Benvenuti nel progetto Lista della Spesa, una semplice applicazione da terminale scritta in C++ che ti permette di:
+    -  👥  Creare e gestire liste della spesa
+     - 📋 Aggiungere/rimuovere oggetti
+     - 🛍️ Segnare oggetti come acquistati
+     - 🔄 Condividere liste con altri utenti
+    - 🔔 Ricevere notifiche automatiche tramite il pattern Observer
 
-## ✅ Funzionalità principali
+## 📁 Struttura del progetto
 
-- Gestione di più utenti
-- Ogni utente può avere più liste della spesa
-- Aggiunta, rimozione, modifica oggetti (nome, categoria, quantità)
-- Lista condivisibile tra utenti
-- Implementazione del Design Pattern Observer
-- Classi con Unit Test (obbligatorio)
-- Controllo di versione con Git
+      ListaSpesa/
+├── src/
+│   ├── main.cpp
+│   ├── Item.cpp / Item.h
+│   ├── ShoppingList.cpp / ShoppingList.h
+│   ├── User.cpp / User.h
+│   ├── Observer.h
+│   └── ConsoleObserver.cpp / ConsoleObserver.h
+├── tests/
+│   ├── test_item.cpp
+│   ├── test_shoppinglist.cpp
+│   └── test_user.cpp
+├── CMakeLists.txt
+└── README.md
 
-## 📦 Struttura del progetto
+## ✨ Funzionalità principali
 
-- `Item`: rappresenta un oggetto da acquistare
-- `ShoppingList`: contiene la lista di oggetti e gestisce gli Observer
-- `Observer`: interfaccia per osservatori di lista
-- `User`: (in arrivo) rappresenta un utente con le sue liste
-- `main.cpp`: interfaccia a linea di comando
+-   ✅  Registrazione e login utenti
+-   🛒  Creazione e modifica di liste della spesa
+-   📦 Aggiunta, rimozione e gestione oggetti (nome, categoria, quantità)
+-   ✅ Segnalazione di oggetti acquistati
+-   🔔 Notifica Observer su aggiornamenti
+-   🤝 Condivisione liste tra utenti
+-   📋 Visualizzazione tabellare degli oggetti da acquistare
+-  🧪 Test unitari con Google Test
+
+## 🖼️ Screenshot
+
+Ecco un esempio visivo dell'app in esecuzione:
+
+![Schermata 1](assets/screenshot1.jpg)
+
+
+
 
 ## 🔧 Requisiti tecnici
 
 - C++17
 - Git (versionamento)
-- Unit Testing (es. GoogleTest o Catch2)
+- Unit Testing (es. GoogleTest )
 
-## 🎓 Info esame
+## 👩‍💻  Autrice
 
-- Progetto realizzato da **Rihab Sagaama** per l’esame di Programmazione C++
-- Università degli Studi di Firenze - Ingegneria Informatica
+Rihab Sagaama
+Studentessa di Ingegneria Informatica   UNIFI
+GitHub: @SagaamaRihab
 
-## ▶️ Come compilare e testare
-
-Assicurati di avere `CMake` installato.
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-./UnitTests
