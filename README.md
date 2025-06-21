@@ -39,7 +39,7 @@ Benvenuti nel progetto Lista della Spesa, una semplice applicazione da terminale
 
 Ecco un esempio visivo dell'app in esecuzione:
 
-![Schermata 1](assets/screenshot1.jpg)
+![Schermata 1](assets/1.jpg)
 
 
 
@@ -48,11 +48,11 @@ Ecco un esempio visivo dell'app in esecuzione:
 
 - C++17
 - Git (versionamento)
-- Unit Testing (es. GoogleTest )
+- CMake + Google Test per i test unitari
 
 ## 👩‍💻  Autrice
 
-Rihab Sagaama
-Studentessa di Ingegneria Informatica   UNIFI
-GitHub: @SagaamaRihab
+     Rihab Sagaama
+     Studentessa di Ingegneria Informatica   UNIFI
+     GitHub: @SagaamaRihab
 
