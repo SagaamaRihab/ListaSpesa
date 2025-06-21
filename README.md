@@ -39,10 +39,8 @@ Benvenuti nel progetto Lista della Spesa, una semplice applicazione da terminale
 
 Ecco un esempio visivo dell'app in esecuzione:
 
-![Schermata 1](assets/1.jpg)
-
-
-
+![1](assets/1.png)
+![2](assets/2.png)
 
 ## 🔧 Requisiti tecnici
 
