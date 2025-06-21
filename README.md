@@ -10,19 +10,22 @@ Benvenuti nel progetto Lista della Spesa, una semplice applicazione da terminale
 ## 📁 Struttura del progetto
 
       ListaSpesa/
-├── src/
-│   ├── main.cpp
-│   ├── Item.cpp / Item.h
-│   ├── ShoppingList.cpp / ShoppingList.h
-│   ├── User.cpp / User.h
-│   ├── Observer.h
-│   └── ConsoleObserver.cpp / ConsoleObserver.h
-├── tests/
-│   ├── test_item.cpp
-│   ├── test_shoppinglist.cpp
-│   └── test_user.cpp
-├── CMakeLists.txt
-└── README.md
+      ├── assets/ # 📸 Screenshot del progetto
+      │ ├── 1.png
+      │ └── 2.png
+      ├── src/ # 🧠 Codice sorgente
+      │ ├── main.cpp
+      │ ├── Item.cpp / Item.h
+      │ ├── ShoppingList.cpp / ShoppingList.h
+      │ ├── User.cpp / User.h
+      │ ├── ConsoleObserver.cpp / ConsoleObserver.h
+      │ └── Observer.h
+      ├── tests/ # 🧪 Test automatici (GoogleTest)
+      │ ├── test_item.cpp
+      │ ├── test_shoppinglist.cpp
+      │ └── test_user.cpp
+      ├── CMakeLists.txt # ⚙️ Configurazione CMake
+      └── README.md # 📘 Documentazione del progetto
 
 ## ✨ Funzionalità principali
 
