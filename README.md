@@ -31,4 +31,13 @@ Questo progetto è una simulazione di un'applicazione in C++ per la gestione di 
 - Progetto realizzato da **Rihab Sagaama** per l’esame di Programmazione C++
 - Università degli Studi di Firenze - Ingegneria Informatica
 
--
+## ▶️ Come compilare e testare
+
+Assicurati di avere `CMake` installato.
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+./UnitTests
