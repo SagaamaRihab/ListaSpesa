@@ -32,8 +32,8 @@ TEST(ShoppingListTest, ContaOggettiDaAcquistare) {
 
 TEST(ShoppingListTest, NotificaObserver) {
     ShoppingList lista("SpesaCasa");
-    ConsoleObserver obs;
-    lista.aggiungiObserver(&obs);
+    lista.aggiungiObserver(std::make_shared<ConsoleObserver>());
+
 
     // Output del test apparirà nella Run se vuoi usare std::cout
     testing::internal::CaptureStdout();

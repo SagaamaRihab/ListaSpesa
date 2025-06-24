@@ -4,12 +4,12 @@
 136	983	7721563181391460	CMakeFiles/UnitTests.dir/src/ShoppingList.cpp.obj	6ddda6b741329250
 3	8139	7718626636091508	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	80f36a2c4ca6bfd7
 66	875	7718103316005441	CMakeFiles/ListaSpesa.dir/src/ListaObserver.cpp.obj	242adf04a001d3c5
-35	1235	7722379330490503	build.ninja	2c593f86b8e85c16
+35	1235	7724923696292167	build.ninja	2c593f86b8e85c16
 7	1459	7722379248824111	CMakeFiles/ListaSpesa.dir/src/main.cpp.obj	7bde19f8541667a5
 1	653	7718103315364485	CMakeFiles/ListaSpesa.dir/src/Oggetto.cpp.obj	52a88537a8cb718c
 59	1280	7721526936620509	CMakeFiles/ListaSpesa.dir/main.cpp.obj	e8ff3cc877267828
 85	1651	7721462864631107	CMakeFiles/ListaSpesa.dir/User.cpp.obj	e257cb1327f96365
-1074	1753	7721615914915935	ListaSpesa.exe	6b1508a295229815
+6	1041	7722379377570455	ListaSpesa.exe	6b1508a295229815
 5	610	7718103876724860	CMakeFiles/ListaSpesa.dir/src/ListaDellaSpesa.cpp.obj	adef6dc0571afd04
 2072	6618	7721565792733655	C:/ListaSpesa/cmake-build-debug/UnitTests[1]_tests.cmake	b47cfae5fede727f
 182	959	7721563181841694	CMakeFiles/UnitTests.dir/src/User.cpp.obj	eef75370869038d0
@@ -33,4 +33,3 @@
 179	1188	7722379250532404	CMakeFiles/ListaSpesa.dir/src/ConsoleObserver.cpp.obj	4ab8c0900d36be3a
 77	1297	7722379249516382	CMakeFiles/ListaSpesa.dir/src/User.cpp.obj	f9d372dd41d8e824
 41	1334	7722379249150186	CMakeFiles/ListaSpesa.dir/src/ShoppingList.cpp.obj	fea5fd96fc829ee3
-6	1041	7722379377570455	ListaSpesa.exe	6b1508a295229815
