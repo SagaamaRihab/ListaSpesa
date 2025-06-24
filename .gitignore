@@ -1,0 +1,9 @@
+/cmake-build-debug/
+/build/
+*.exe
+*.o
+*.obj
+*.log
+*.cache
+*.user
+.DS_Store
