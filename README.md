@@ -82,23 +82,24 @@ I test coprono le seguenti classi principali:
 
 ## 📸 Screenshot (Esempi di Esecuzione)
 
+    ###✅ Menu Principale
+![Menu Principale](assets/1.png)
 
-           ###✅ Menu Principale
-            ![Menu Principale](assets/1.png)
             
-           ###✅ Registrazione di un nuovo utente
-            ![Registrazione](assets/2.png)
-            
-           ###✅ Creazione di una nuova lista
-            ![Creazione lista](assets/3.png)
+    ###✅ Registrazione di un nuovo utente
+![Registrazione](assets/2.png)
              
-           ###✅ Aggiunta di un oggetto e notifica Observer
+    ###✅ Creazione di una nuova lista
+![Creazione lista](assets/3.png)
+             
+###✅ Aggiunta di un oggetto e notifica Observer
             ![Aggiungi Oggetto](assets/4.png)
               
-           ###✅ Visualizzazione oggetti da acquistare
+          
+ ###✅ Visualizzazione oggetti da acquistare
             ![Oggetti da acquistare](assets/5.png)
                
-            ###✅ Contenuto del file log.txt (Observer su file)
+###✅ Contenuto del file log.txt (Observer su file)
              ![File log.txt](assets/6.png)
 
 
