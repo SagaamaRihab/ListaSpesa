@@ -80,26 +80,22 @@ I test coprono le seguenti classi principali:
 - ✅ `ShoppingList`
 - ✅ `User`
 
-I test sono eseguibili con il comando:
+## 📸 Screenshot (Esempi di Esecuzione)
 
-```bash
-./UnitTests
 
-## 🖼️ Screenshot (Esempi di Esecuzione)
-
-            ✅ Menu Principale
+           ✅ Menu Principale
             ![Menu Principale](assets/1.png)
             
-            ✅ Registrazione di un nuovo utente
+           ✅ Registrazione di un nuovo utente
             ![Registrazione](assets/2.png)
             
-            ✅ Creazione di una nuova lista
+           ✅ Creazione di una nuova lista
             ![Creazione lista](assets/3.png)
              
-            ✅ Aggiunta di un oggetto e notifica Observer
+           ✅ Aggiunta di un oggetto e notifica Observer
             ![Aggiungi Oggetto](assets/4.png)
               
-            ✅ Visualizzazione oggetti da acquistare
+           ✅ Visualizzazione oggetti da acquistare
             ![Oggetti da acquistare](assets/5.png)
                
             ✅ Contenuto del file log.txt (Observer su file)
