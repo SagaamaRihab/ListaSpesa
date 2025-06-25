@@ -84,6 +84,13 @@ build CMakeFiles/ListaSpesa.dir/src/ConsoleObserver.cpp.obj: CXX_COMPILER__Lista
   OBJECT_DIR = CMakeFiles\ListaSpesa.dir
   OBJECT_FILE_DIR = CMakeFiles\ListaSpesa.dir\src
 
+build CMakeFiles/ListaSpesa.dir/src/FileObserver.cpp.obj: CXX_COMPILER__ListaSpesa_unscanned_Debug C$:/ListaSpesa/src/FileObserver.cpp || cmake_object_order_depends_target_ListaSpesa
+  DEP_FILE = CMakeFiles\ListaSpesa.dir\src\FileObserver.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/ListaSpesa/src
+  OBJECT_DIR = CMakeFiles\ListaSpesa.dir
+  OBJECT_FILE_DIR = CMakeFiles\ListaSpesa.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ListaSpesa
@@ -92,7 +99,7 @@ build CMakeFiles/ListaSpesa.dir/src/ConsoleObserver.cpp.obj: CXX_COMPILER__Lista
 #############################################
 # Link the executable ListaSpesa.exe
 
-build ListaSpesa.exe: CXX_EXECUTABLE_LINKER__ListaSpesa_Debug CMakeFiles/ListaSpesa.dir/src/main.cpp.obj CMakeFiles/ListaSpesa.dir/src/Item.cpp.obj CMakeFiles/ListaSpesa.dir/src/ShoppingList.cpp.obj CMakeFiles/ListaSpesa.dir/src/User.cpp.obj CMakeFiles/ListaSpesa.dir/src/ConsoleObserver.cpp.obj
+build ListaSpesa.exe: CXX_EXECUTABLE_LINKER__ListaSpesa_Debug CMakeFiles/ListaSpesa.dir/src/main.cpp.obj CMakeFiles/ListaSpesa.dir/src/Item.cpp.obj CMakeFiles/ListaSpesa.dir/src/ShoppingList.cpp.obj CMakeFiles/ListaSpesa.dir/src/User.cpp.obj CMakeFiles/ListaSpesa.dir/src/ConsoleObserver.cpp.obj CMakeFiles/ListaSpesa.dir/src/FileObserver.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ListaSpesa.dir

@@ -11,6 +11,7 @@ add_executable(ListaSpesa
         src/ShoppingList.cpp
         src/User.cpp
         src/ConsoleObserver.cpp
+        src/FileObserver.cpp
 )
 
 # === GoogleTest ===
@@ -31,6 +32,7 @@ add_executable(UnitTests
         src/ShoppingList.cpp
         src/User.cpp
         src/ConsoleObserver.cpp
+
 )
 
 

@@ -6,6 +6,8 @@
 #include "Item.h"
 #include "ShoppingList.h"
 #include "ConsoleObserver.h"
+#include "FileObserver.h"
+
 
 void mostraMenuPrincipale();
 void mostraMenuUtente(std::shared_ptr<User> utente, std::map<std::string, std::shared_ptr<User>>& utenti);
@@ -96,8 +98,11 @@ void mostraMenuUtente(std::shared_ptr<User> utente, std::map<std::string, std::s
                 utente->creaLista(nomeLista);
                 auto lista = utente->getListaByNome(nomeLista);
                 if (lista) {
-                    auto observer = std::make_shared<ConsoleObserver>();
-                    lista->aggiungiObserver(observer);
+                    auto observerConsole = std::make_shared<ConsoleObserver>();
+                    auto observerFile = std::make_shared<FileObserver>("log.txt");
+
+                    lista->aggiungiObserver(observerConsole);
+                    lista->aggiungiObserver(observerFile);
                 }
                 std::cout << "✅ Lista creata!\n";
                 break;
