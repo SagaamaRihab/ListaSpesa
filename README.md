@@ -15,15 +15,6 @@ Ogni utente può creare, gestire e condividere liste della spesa contenenti ogge
 
 Inoltre, grazie all'implementazione del **design pattern Observer**, è possibile **ricevere notifiche automatiche** ogni volta che una lista viene modificata.
 
-
-## 📁 Struttura del progetto
-
-      ChatGPT a dit :
-Perfetto Rihab! 😊 Grazie per lo screenshot, adesso ti riscrivo una versione più pulita e ordinata della sezione "Struttura del progetto", adatta per il tuo README.
-
-✅ Nuova sezione "📁 Struttura del progetto" (formale e chiara)
-markdown
-Copier le code
 ## 📁 Struttura del progetto
 
 Il progetto è organizzato nelle seguenti cartelle:
