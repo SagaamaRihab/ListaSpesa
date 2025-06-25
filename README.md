@@ -92,15 +92,15 @@ I test coprono le seguenti classi principali:
     ###✅ Creazione di una nuova lista
 ![Creazione lista](assets/3.png)
              
-###✅ Aggiunta di un oggetto e notifica Observer
-            ![Aggiungi Oggetto](assets/4.png)
+    ###✅ Aggiunta di un oggetto e notifica Observer
+![Aggiungi Oggetto](assets/4.png)
               
           
- ###✅ Visualizzazione oggetti da acquistare
-            ![Oggetti da acquistare](assets/5.png)
+    ###✅ Visualizzazione oggetti da acquistare
+![Oggetti da acquistare](assets/5.png)
                
-###✅ Contenuto del file log.txt (Observer su file)
-             ![File log.txt](assets/6.png)
+    ###✅ Contenuto del file log.txt (Observer su file)
+![File log.txt](assets/6.png)
 
 
 ## 🔧 Strumenti utilizzati
