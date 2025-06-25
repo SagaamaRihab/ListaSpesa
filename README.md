@@ -1,4 +1,4 @@
-# 🛒 # 🛒 Progetto di Laboratorio di Programmazione in C++
+# 🛒 Progetto di Laboratorio di Programmazione in C++
 ## Lista della Spesa (Stile Listonic
 
 Benvenuti nel progetto Lista della Spesa, una semplice applicazione da terminale scritta in C++ che ti permette di:
